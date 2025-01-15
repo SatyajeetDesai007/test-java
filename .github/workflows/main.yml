@@ -28,7 +28,7 @@ jobs:
     - name: Cache Maven Dependencies
       uses: actions/cache@v3
       with:
-        path: C:\Users\runneradmin\.m2
+        path: C:\Users\satya\.m2
         key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
         restore-keys: |
           ${{ runner.os }}-maven-
